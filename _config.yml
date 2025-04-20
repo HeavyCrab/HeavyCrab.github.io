@@ -22,10 +22,10 @@ repository               : "HeavyCrab/HeavyCrab.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Jianing Ye"
+  avatar           : "ava.png"
+  name             : "Jianing Ye | 叶珈宁"
   pronouns         : # example: "she/her"  
-  bio              : "Phd in Computer Science."
+  bio              : "PhD in Computer Science."
   location         : "Earth"
   employer         : "Washington University in St. Louis"
   uri              : # URL
