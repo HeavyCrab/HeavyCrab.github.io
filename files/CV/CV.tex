@@ -1,0 +1,182 @@
+% !TEX program = xelatex
+
+\documentclass{resume}
+%\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\usepackage[hidelinks]{hyperref}
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{Jianing Ye}
+
+% {E-mail}{mobilephone}{homepage}
+%\contactInfo{xxx@yuanbin.me}{(+86) 131-221-87xxx}{http://www.yuanbin.me}
+% E-mail and homepage
+\centerline{\large{\faEnvelopeO\ \href{mailto:jianing.y@wustl.edu}{jianing.y@wustl.edu} \textperiodcentered\ \faGlobe\ \href{https://heavycrab.github.io}{heavycrab.github.io}}}
+\vspace{1.5ex}
+
+\section{Research Interests}
+Multi-Agent Coordination, LLM Agents, Reinforcement Learning, Robotics
+
+\section{Education}
+\datedsubsection{\textbf{Washington University in St. Louis (WashU)}, St. Louis, US}{2024 -- Present}
+\textit{PhD student} in Computer Science.\quad Advisor: Chongjie Zhang.
+
+Affiliation: Computer Science \& Engineering, McKelvey School of Engineering.
+
+Research Interests: Reinforcement Learning, Multi-agent Coordination, LLM Agents, Robotics
+
+\datedsubsection{\textbf{Tsinghua University (THU)}, Beijing, China}{2021 -- 2024}
+\textit{Master's student} in Computer Science and Technology.\quad Advisor: Chongjie Zhang, Yi Wu.
+
+Affiliation: Institute for Interdisciplinary Information Sciences (IIIS).
+
+Research Interests: Reinforcement Learning, Multi-agent Coordination
+
+\datedsubsection{\textbf{Peking University (PKU)}, Beijing, China}{2017 -- 2021}
+\textit{B.S.} and \textit{B.S. (Hons)} in Computer Science and Technology.
+
+Affiliation: Turing Class (CS area), School of Electronics Engineering and Computer Science (EECS).
+
+% GPA of required courses: \textbf{3.74}/4.00
+
+
+\datedsubsection{\textbf{Shaoxing NO.1 High School}, Zhejiang, China}{2014 -- 2017}
+%\textit{Master student} in Electronics Engineering (EE), expected March 2016
+
+
+\section{Publications}
+
+{\small (* indicates equal contribution)}
+
+\begin{enumerate}
+
+  \item Buzhao Liu*, \textbf{Jianing Ye*}, Xiu Yuan*, Yangtong Feng, Chengsong Huang, Tyler Dinh, Yevgeniy Vorobeychik, Ning Zhang, Chongjie Zhang. RoboAuto: Autonomous Robot Program Search through Multi-Level Physical Understanding. \textit{arXiv preprint arXiv: 2610.36533}, 2026.
+  \item \textbf{Jianing Ye}, Yang Zhang, Xiu Yuan, Buzhao Liu, David Park, Qihan Liu, Chongjie Zhang. MATCHA: Bridging the Gap between Sample and Wall-Clock Efficiency in Model-Based Multi-Agent Reinforcement Learning. \textit{Under review}, 2026.
+  \item Dingyang Chen, \textbf{Jianing Ye}, Zhenyu Zhang, Xiaolong Kuang, Xinyang Shen, Ozalp Ozer, Chongjie Zhang, Qi Zhang. Correlated Policy Optimization in Multi-Agent Subteams. \textit{International Conference on Learning Representations (ICLR)}, 2026.
+  \item Yang Zhang, Xinran Li, \textbf{Jianing Ye}, Shuang Qiu, Delin Qu, Xiu Li, Chongjie Zhang, Chenjia Bai. Revisiting multi-agent world modeling from a diffusion-inspired perspective. \textit{Advances in Neural Information Processing Systems (NeurIPS)}, 2025.
+  \item Hao Hu*, Yiqin Yang*, \textbf{Jianing Ye}, Chengjie Wu, Ziqing Mai, Yujing Hu, Tangjie Lv, Changjie Fan, Qianchuan Zhao, Chongjie Zhang. Bayesian Design Principles for Offline-to-Online Reinforcement Learning. \textit{International Conference on Machine Learning (ICML)}, 2024.
+  \item Qihan Liu*, \textbf{Jianing Ye*}, Xiaoteng Ma*, Jun Yang, Bin Liang, Chongjie Zhang. Efficient Multi-agent Reinforcement Learning by Planning. \textit{International Conference on Learning Representations (ICLR)}, 2024.
+  \item \textbf{Jianing Ye}, Chenghao Li, Jianhao Wang, Chongjie Zhang. Towards Global Optimality in Cooperative MARL with the Transformation And Distillation Framework. \textit{arXiv preprint arXiv: 2207.11143}, 2025.
+  \item Hao Hu*, Yiqin Yang*, \textbf{Jianing Ye}, Ziqing Mai, Chongjie Zhang. Unsupervised Behavior Extraction via Random Intent Priors. \textit{Advances in Neural Information Processing Systems (NeurIPS)}, 2023.
+  \item Hao Hu, \textbf{Jianing Ye}, Zhizhou Ren, Guangxiang Zhu, and Chongjie Zhang. Generalizable Episodic Memory for Deep Reinforcement Learning. \textit{International Conference on Machine Learning (ICML)}, 2021.
+  \item Jianhao Wang*, Zhizhou Ren*, Beining Han, \textbf{Jianing Ye} and Chongjie Zhang. Towards Understanding Linear Value Decomposition in Cooperative Multi-Agent Q-Learning. \textit{Advances in Neural Information Processing Systems (NeurIPS)}, 2021.
+\end{enumerate}
+
+\section{Experience}
+
+
+\datedsubsection{\textbf{IIIS, Tsinghua University}}{2021.9 -- 2024.6}
+\role{Master student}{Advisor: Chongjie Zhang, Yi Wu}
+
+\paragraph{Research Outline:}
+
+\begin{itemize}
+  \item \textbf{Effective and Efficient Multi-agent Reinforcement Learning} 
+
+  \begin{itemize}
+    \item Analyzed the convergence properties for Linear Value Decomposition and IGM Value Decomposition under the framework of Factorized Multi-Agent Fitted Q-Iteration (FMA-FQI).
+    \item Analyzed the suboptimality of existing Multi-Agent Policy Gradient and Value-Decomposition MARL algorithms when using gradient descent optimizers.
+    \item Proposed the Transformation And Distillation (TAD) framework to achieve global optimality in cooperative MARL, and designed a novel cooperative MARL algorithm, TAD-PPO, which outperforms the state-of-the-art algorithms in various cooperative MARL benchmarks.
+    \item Proposed the Model-based Multi-agent Reinforcement Learning algorithm MAZero, which learns a multi-agent world model and does MCTS planning to achieve the SOTA sample efficiency in cooperative MARL.
+  \end{itemize}
+
+  \item \textbf{Offline-to-Online Reinforcement Learning}
+
+  \begin{itemize}
+    \item Proposed UBER, an unsupervised approach to extract useful behaviors from offline, reward-free datasets via diversified rewards.
+    \item Proposed a Bayesian design principle for offline-to-online fine-tuning to avoid the inefficiency or unstability caused by overpessimistic or overoptimistic fine-tuning policy.
+  \end{itemize}
+  \item \textbf{Episodic Memory in Deep RL}
+
+  \begin{itemize}
+    \item Presented a novel framework, GEM, to build generalizable episodic memory and improve sample efficiency. GEM consists of a novel value planning scheme for the continuous domain and a twin back-propagation process to reduce overestimation along the trajectories.
+  \end{itemize}
+\end{itemize}
+
+\paragraph{Teaching Assistant Courses:}
+\begin{itemize}
+  \item \textbf{Research Practice} 
+  
+  Instructor: Chongjie Zhang \hfill \textit{2021.9 -- 2022.1}
+  \item \textbf{Diploma Project (Thesis)}
+
+  Instructor: Chongjie Zhang \hfill \textit{2022.2 -- 2022.6}
+\end{itemize}
+
+\vspace{2em}
+
+\datedsubsection{\textbf{Turing Class, Peking University}}{2017 -- 2019}
+\role{Undergraduate student}{}
+
+\paragraph{The ICPC International Collegiate Programming Contest:}
+I attended the ICPC contest for several years under the supervision of Guojie Luo. I took part in 4 regional contests, 2 continent finals and all got gold medals. In 2019, I attended world finals in Portugal on behalf of Peking University and got the 13th place.
+
+\paragraph{Teaching Assistant Courses:}
+\begin{itemize}
+  \item \textbf{Introduction to the Theory of Computation} 
+  
+  Instructor: Xiaoming Sun \hfill \textit{2020.2 -- 2020.6}
+\end{itemize}
+
+\paragraph{TCS book reading seminar:}
+I organized a weekly seminar of theoretical computer science. We read books like \textbf{Computational Complexity: A Modern Approach} in this seminar.
+
+\vspace{2em}
+
+\datedsubsection{\textbf{Institute of Computing Technology Chinese Academy of Science}}{2019.8 -- 2020.6}
+\role{Summer Intern}{Mentor: Xiaoming Sun}
+Analysing the minimum representation of some special quantum gates.
+
+\vspace{2em}
+
+\datedsubsection{\textbf{Beijing Megvii Co., Ltd.}}{2017.3.1 -- 2017.8.1}
+\role{Summer Intern}{Mentor: Haoqiang Fan}
+Liveness test algorithm design, 3D Facial hair reconstruction, problem design for MegCup contest.
+\begin{itemize}
+  \item Built and programmed a mechanical arm for data automatic acquisition under various environment.
+  \item Designed an algorithm to extract fine 2D mask for eyebrows.
+  \item Set the final problem for MegCup2017.
+    % \quad MegCup is an online programming competition. The problem is to count essentially different circles on a 3 or 4 dimensional manifold (in the sense of topology). The main idea is to reduce the problem to solving a group of linear equations. And this can be done in $O(n\log n)$ time using mergeable heap.
+\end{itemize}
+
+
+\section{Skills}
+\begin{itemize}[parsep=0.5ex]
+  \item algorithm design, data structure, multi-agent reinforcement learning
+%  \item Development: Web, xxx
+\end{itemize}
+
+\section{Honors and Awards}
+\datedline{Excellent Graduate of Peking University}{2021}
+\datedline{National Scholarship}{2018}
+\datedline{Peking University Three Good Students Model}{2018}
+\datedline{Peking University Freshman Scholarship}{2017}
+\datedline{Peking University Third Class Scholarship}{2019}
+% 交叉信息院院设奖学金（047020）2022
+% 交叉信息院院设奖学金（047020）2023
+\datedline{13th place, Award on ICPC World Finals}{2019}
+\datedline{Gold Medal, Award on ACM-ICPC East Asia Continent Final (EC-Final)}{2018}
+\datedline{Gold Medal, Award on ACM-ICPC Xuzhou regional}{2018}
+\datedline{Gold Medal, Award on ACM-ICPC Qingdao regional}{2018}
+\datedline{Gold Medal, Award on ACM-ICPC East Asia Continent Final (EC-Final)}{2017}
+\datedline{Gold Medal, Award on ACM-ICPC Xi'an regional}{2017}
+\datedline{Gold Medal, Award on ACM-ICPC Qingdao regional}{2017}
+\datedline{Gold Medal, Award on ACM-ICPC Yinchuan regional}{2021}
+\datedline{Gold Medal, National Training Team, Award on NOI}{2016}
+\datedline{Best School Team, Award on SNACKDOWN}{2017}
+\datedline{2nd place, Award on SenseTime Ace Coder Challenge}{2018}
+
+
+
+
+
+%\section{Miscellaneous}
+%\begin{itemize}[parsep=0.5ex]
+%  \item Blog: http://your.blog.me
+%  \item GitHub: https://github.com/username
+%  \item Languages: English - Fluent, Mandarin - Native speaker
+%\end{itemize}
+
+\end{document}

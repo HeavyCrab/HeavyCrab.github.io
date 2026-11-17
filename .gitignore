@@ -1,0 +1,14 @@
+.DS_Store
+.claude/
+
+# LaTeX build files in files/CV
+files/CV/*.aux
+files/CV/*.log
+files/CV/*.bbl
+files/CV/*.blg
+files/CV/*.out
+files/CV/*.toc
+files/CV/*.xdv
+files/CV/*.fls
+files/CV/*.fdb_latexmk
+files/CV/*.synctex.gz
