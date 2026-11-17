@@ -4,7 +4,6 @@
 %\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
 %\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
 \usepackage[hidelinks]{hyperref}
-
 \begin{document}
 \pagenumbering{gobble} % suppress displaying page number
 
@@ -65,6 +64,32 @@ Affiliation: Turing Class (CS area), School of Electronics Engineering and Compu
 \end{enumerate}
 
 \section{Experience}
+
+\datedsubsection{\textbf{CSE, Washington University in St. Louis}}{2024.9 -- Present}
+\role{PhD student}{Advisor: Chongjie Zhang}
+
+\paragraph{Research Outline:}
+
+\begin{itemize}
+  \item \textbf{LLM Agents for Robot Program Synthesis}
+
+  \begin{itemize}
+    \item Co-led RoboAuto, an LLM-agent framework that autonomously searches for robot programs (Code-as-Policy) grounded in multi-level physical understanding at the object, scene, and interaction levels.
+    \item Built a hierarchical knowledge base of object-centric physical knowledge learned from demonstration videos, physical scene grounding via point-cloud measurement, and multi-stage planning in which the agent designs its own experiments to resolve physical uncertainty.
+    \item Achieved state-of-the-art success rates across five benchmark families (e.g., 73.4\% vs.\ 30.8\% over ASPIRE on LIBERO-PRO Long), and outperformed ASPIRE and $\pi_{0.5}$ on long-horizon real-robot tasks with a WidowX arm.
+  \end{itemize}
+
+  \item \textbf{Efficient Model-Based Multi-Agent Reinforcement Learning}
+
+  \begin{itemize}
+    \item Led MATCHA, a system--algorithm co-design that makes search-based model-based MARL efficient on modern accelerators, achieving up to \textbf{16.3$\times$} end-to-end wall-clock speedup over MAZero while matching or exceeding the sample efficiency of strong model-based baselines on SMAX, Overcooked, and MPE.
+    \item Designed Path-Guided Frontier Search (PGFS), which replaces sequential MCTS tree traversal with one-shot vectorized sampling over the search frontier, reducing worst-case search complexity from $O(N^2)$ to $O(N \log N)$ with a provable policy improvement guarantee.
+    \item Built a device-centric, end-to-end vectorized training framework that keeps data collection, planning, reanalysis, and learning on the GPU, and scales to multiple GPUs without lowering the update-to-data ratio.
+    \item Collaborated on diffusion-inspired multi-agent world modeling (NeurIPS 2025) and correlated policy optimization for multi-agent subteams (ICLR 2026).
+  \end{itemize}
+\end{itemize}
+
+\vspace{2em}
 
 
 \datedsubsection{\textbf{IIIS, Tsinghua University}}{2021.9 -- 2024.6}
